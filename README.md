@@ -3,11 +3,22 @@
 **Project that reed numbers.txt and analyze multiples numbers of 3 and 5, and multiples bouth of it.**
 **Case multiple of 3, shows fizz, case multiple of 5, shows buzz, case multiples bouth of it, shows Fizzbuzz**
 
+<div align="center" >
+  <img src="./fizz.gif">
+</div>
+
 ## Run Project
 ```elixir
 iex -S mix
 
 run FizzBuzz.build("numbers.txt") or FizzBuzz.build("number.txt") for throw errors
+
+
+```
+
+## Run Tests
+```elixir
+mix
 
 
 ```
